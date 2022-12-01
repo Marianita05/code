@@ -1,0 +1,82 @@
+body {
+  background-image: url("mod.jpeg");
+  font-family: "fantasy";
+  width: 100%;
+}
+
+.box {
+  background: rgba(0, 0, 0, .5);
+  margin: auto;
+  margin-top: 20px;
+  height: 850px;
+  width: 1400px;
+  border-radius: 15px;
+}
+
+figure {
+  width: 250px;
+  margin: auto;
+}
+section{
+  color: white;
+}
+
+#logo {
+  width: 250px;
+  margin-top: 95px;
+}
+
+#logo-text {
+  color: lime;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+nav, main {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 20px;
+}
+
+nav {
+  background-color: lime;
+  padding: 10px;
+  text-align: center;
+}
+
+span {
+  font-size:25px;
+}
+
+p {
+  line-height: 5px;
+}
+
+p, div {
+  font-size: 17px;
+}
+
+p:before {
+  content: "\21A6";
+}
+
+#divisore1, #divisore2, #divisore3 {
+  border-radius: 5px;
+  padding: 13px;
+}
+
+#divisore1 {
+  background-color: #CD853F;
+  margin-right: 67%;
+}
+
+#divisore2 {
+  background-color: lime;
+  margin-right: 40%;
+}
+
+#divisore3 {
+  background-color: #CD5555;
+  margin-right: 85%;
+}
